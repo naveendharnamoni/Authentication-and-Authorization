@@ -67,12 +67,12 @@ namespace ConfArch.Data.Migrations
             migrationBuilder.InsertData(
                 table: "Conferences",
                 columns: new[] { "Id", "Location", "Name", "Start" },
-                values: new object[] { 1, "Salt Lake City", "Pluralsight Live", new DateTime(2019, 10, 12, 0, 0, 0, 0, DateTimeKind.Unspecified) });
+                values: new object[] { 1, "Salt Lake City", "echo Live", new DateTime(2019, 10, 12, 0, 0, 0, 0, DateTimeKind.Unspecified) });
 
             migrationBuilder.InsertData(
                 table: "Conferences",
                 columns: new[] { "Id", "Location", "Name", "Start" },
-                values: new object[] { 2, "London", "Pluralsight Live", new DateTime(2019, 3, 18, 0, 0, 0, 0, DateTimeKind.Unspecified) });
+                values: new object[] { 2, "London", "echo Live", new DateTime(2019, 3, 18, 0, 0, 0, 0, DateTimeKind.Unspecified) });
 
             migrationBuilder.InsertData(
                 table: "Attendees",
